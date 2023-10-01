@@ -1,9 +1,17 @@
+import { Button, Row } from "antd";
+
 const NotFoundPage = () => {
-    return (
-      <div>
-        <h1>404!!! Page not found!</h1>
-      </div>
-    );
-  };
-  
-  export default NotFoundPage;
+  return (
+    <Row
+      justify="center"
+      align="middle"
+      style={{
+        height: "100vh",
+      }}
+    >
+      <h1>404!!! Page Not Found!</h1>
+    </Row>
+  );
+};
+
+export default NotFoundPage;

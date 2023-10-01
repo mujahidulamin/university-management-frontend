@@ -14,7 +14,6 @@ const SideBar = () => {
 
   // const role = USER_ROLE.STUDENT;
 
-
   const { role } = getUserInfo() as any;
   // console.log(role);
 
@@ -39,7 +38,8 @@ const SideBar = () => {
           fontSize: "2rem",
           textAlign: "center",
           fontWeight: "bold",
-          marginBottom: "1rem",
+          marginBottom: ".5rem",
+          padding: "10px 0px",
         }}
       >
         UMS
